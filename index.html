@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIVA PHOTO FRAMES | Your Memories, Our Frames</title>
+  <meta name="description" content="Customized wooden, acrylic and LED photo frames from Siva Digital Shop, Pulicat. Tamil Nadu delivery.">
+  <meta name="theme-color" content="#650d1b">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#"><img src="assets/siva-photo-frames-logo.png" alt="Siva Photo Frames logo"><span>SIVA PHOTO FRAMES<small>A brand by Siva Digital Shop</small></span></a>
+  <nav><a href="#collections">Collections</a><a href="#how">How to order</a><a href="#contact">Contact</a></nav>
+  <a class="nav-cta" href="#order">Customise yours</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">MADE PERSONAL. MADE WITH CARE.</p>
+      <h1>Your memories,<br><em>our frames.</em></h1>
+      <p>Personalised Wooden, Acrylic & LED Photo Frames — designed and finished at Siva Digital Shop, Pulicat.</p>
+      <div class="hero-actions"><a class="btn" href="#collections">Explore frames</a><a class="text-link" href="#order">Upload your photo →</a></div>
+      <div class="trust"><span>✓ Customised designs</span><span>✓ Careful packing</span><span>✓ Tamil Nadu delivery</span></div>
+    </div>
+    <div class="hero-art"><div class="frame frame-wood"><div class="sample-photo">YOUR<br>MEMORY</div><b>WOODEN</b></div><div class="frame frame-acrylic"><div class="sample-photo">YOUR<br>PHOTO</div><b>ACRYLIC</b></div><div class="frame frame-led"><div class="glow">S<br>♥<br>Y</div><b>LED</b></div></div>
+  </section>
+
+  <section class="section" id="collections">
+    <div class="section-heading"><p class="eyebrow">THE LAUNCH COLLECTION</p><h2>Find your favourite frame</h2><p>Starter models and indicative launch prices. Final price depends on size and customisation.</p></div>
+    <div class="products">
+      <article class="product"><div class="product-image wood"><span>WOODEN<br>FRAME</span></div><div class="product-info"><p class="tag">CLASSIC & TIMELESS</p><h3>Wooden Photo Frame</h3><p>Warm wood-look finish with your favourite photo print.</p><div class="price">From ₹299</div><button class="choose" data-product="Wooden Photo Frame">Customise this</button></div></article>
+      <article class="product"><div class="product-image acrylic"><span>ACRYLIC<br>FRAME</span></div><div class="product-info"><p class="tag">CLEAN & MODERN</p><h3>Acrylic Photo Frame</h3><p>Clear premium look with a crisp personalised print.</p><div class="price">From ₹399</div><button class="choose" data-product="Acrylic Photo Frame">Customise this</button></div></article>
+      <article class="product"><div class="product-image led"><span>LED<br>FRAME</span></div><div class="product-info"><p class="tag">A GIFT THAT GLOWS</p><h3>LED Photo Frame</h3><p>Illuminated personalised frame for special occasions.</p><div class="price">From ₹499</div><button class="choose" data-product="LED Photo Frame">Customise this</button></div></article>
+    </div>
+    <p class="notice">Prices shown are proposed launch prices, not confirmed quotations. Confirm material, size, taxes and shipping before publishing.</p>
+  </section>
+
+  <section class="how section" id="how"><div><p class="eyebrow">SIMPLE ORDERING</p><h2>Your photo to a frame in a few steps</h2></div><div class="steps"><div><b>01</b><h3>Choose</h3><p>Select a frame type and size.</p></div><div><b>02</b><h3>Upload</h3><p>Share your photo and personalisation details.</p></div><div><b>03</b><h3>Approve</h3><p>We confirm design, price and delivery.</p></div><div><b>04</b><h3>Receive</h3><p>We make, pack and dispatch your frame.</p></div></div></section>
+
+  <section class="order-section section" id="order">
+    <div class="section-heading"><p class="eyebrow">PERSONALISE YOUR FRAME</p><h2>Start your order</h2><p>Send your details through WhatsApp. We will confirm the final price first. Pay only after confirmation using UPI ID: <strong>8939015264@ptyes</strong>.</p></div>
+    <form id="orderForm" class="order-form">
+      <label>Your name<input name="name" required placeholder="Enter your name"></label>
+      <label>Mobile number<input name="phone" required inputmode="tel" placeholder="10-digit mobile number"></label>
+      <label>Frame type<select name="product" id="product" required><option value="">Choose a frame</option><option>Wooden Photo Frame</option><option>Acrylic Photo Frame</option><option>LED Photo Frame</option></select></label>
+      <label>Frame size<select name="size" required><option value="">Choose size</option><option>6 × 8 inch</option><option>8 × 12 inch</option><option>12 × 18 inch</option><option>Custom size — please quote</option></select></label>
+      <label>Quantity<input name="quantity" type="number" min="1" value="1" required></label>
+      <label>Delivery district / PIN code<input name="location" required placeholder="District and PIN code"></label>
+      <label class="wide">Personalisation notes<textarea name="notes" rows="3" placeholder="Name, date, text, colour preference, etc."></textarea></label>
+      <label class="wide">Upload photo (JPG / PNG)<input name="photo" id="photo" type="file" accept="image/jpeg,image/png"></label>
+      <p class="upload-note wide">Your photo is not uploaded to a server by this starter page. The order opens WhatsApp; attach the photo in WhatsApp after the message opens. UPI ID: 8939015264@ptyes. Pay only after we confirm the final order total on WhatsApp.</p>
+      <button class="btn wide" type="submit">Send order enquiry on WhatsApp</button>
+      <p id="formStatus" class="wide form-status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+<footer id="contact"><div><h2>SIVA PHOTO FRAMES</h2><p>Your Memories. Our Frames.</p><p>A brand by Siva Digital Shop · Pulicat, Tamil Nadu</p></div><div><b>Contact</b><p>WhatsApp: +91 89390 15264</p><p>UPI ID: 8939015264@ptyes</p><p>Payment: Pay only after order confirmation</p><p>Email: Add your business email</p><p>Website: sivaphotoframes.in</p></div><small>© <span id="year"></span> Siva Photo Frames. Product prices and delivery timelines are subject to confirmation.</small></footer>
+<script src="script.js"></script>
+</body></html>
